@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: blanchedalmond;
+}
+
+button:hover {
+    background-color: #FF0099;
+    box-shadow: 3px 1px 6px dimgrey;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    width: 500px;
+    height: 300px;
+
+    border-radius: 20px;
+    box-shadow: 10px -1px 41px dimgrey;
+    background-color: #00FFCC;
+}
+
+.input-area {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.firstField, .secondField {
+    display: inline-block;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.firstField:focus, .secondField:focus {
+
+    box-shadow: 3px 1px 6px dimgrey;
+    transition: all 200ms ease-in-out;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.math-button {
+    margin: 0 auto;
+    margin:0 10px 10px 0;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: none;
+    
+    background-color: #FF99CC;
+    transition: all 200ms ease-in-out;
+}
+
+.math-button:last-child {
+    margin-right: 0;
+}
+
+.clear-result {
+    margin: 0 auto;
+}
+
+.clear-button {
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: none;
+    
+    background-color: #FF99CC;
+    transition: all 200ms ease-in-out;
+}
+
+.resultField {
+    text-align: center;
+    height: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой калькулятор</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="input-area">
+            <label for="firstField">Введите первое число:</label>
+            <input type="text" id="firstField" class="firstField">
+            <!-- Первое поле ввода -->
+
+            <label for="secondField">Введите второе число:</label>
+            <input type="text" id="secondField" class="secondField">
+            <!-- Второе поле ввода -->
+        
+        </div>
+        <!-- /.input-area -->
+
+        <div class="button">
+            <button class="math-button button-plus">+</button>
+            <button class="math-button button-min">-</button>
+            <button class="math-button button-mul">*</button>
+            <button class="math-button button-divide">/</button>
+            <!-- Кнопки математического действия -->
+        </div>
+        <!-- /.button -->
+        <div class="clear-result">
+            <button class="clear-button">Очистить</button>
+            <!-- Кнопка очистки полей -->
+    
+            <p class="resultField"></p>
+            <!-- Поле результата -->
+        </div>
+        <!-- /.clear-result -->
+
+        <script src="./js/script.js"></script>
+    </div>
+    <!-- /.wrapper -->
+</body>
+</html>
